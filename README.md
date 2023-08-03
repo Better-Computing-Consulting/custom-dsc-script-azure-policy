@@ -60,6 +60,10 @@ while (!(Test-Path $scriptlog)){
 Get-Content -Path $scriptlog -Wait -Tail 10
 ```
 
+I also posted a video demonstrating a sample run of the scripts. The video first shows the deployment of the development infrastructure and compilation, upload, and deployment of the custom DSC policy. Then it shows the monitoring of the installation of Office 365 in a VM. Lastly, it monitors the state of the policy until it becomes compliant.
+
+https://youtu.be/BnP_xWChTNM
+
 I hope you find this project useful.
 
 :smiley:
